@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.mySlides {display:none;}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #ebebeb;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #fdc433;
+    color: black;
+}
+
+
+
+
+.main {
+    flex: 70%;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.fakeimg {
+    background-color: white;
+    text-align: center;
+
+    width: 100%;
+    padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #f7f7f7;
+}
+
+.flex-container > div {
+  
+  color: #333;
+  width: 275px;
+  
+  margin: 10px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 20px;
+
+}
+
+
+.flex-containerii {
+  display: flex;
+  background-color: #f7f7f7;
+}
+
+.flex-containerii > div {
+  
+  color: #fdc433;
+  width: 260px;
+  margin: 10px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 18px;
+}
+
+
+h1{
+  font-size: 35px;
+  font-style: 
+}
+
+h3{
+    font-size: 16px;
+    color: #333;
+
+}
+
+.footer {
+    padding: 5px;
+    text-align: center;
+    background: #ddd;
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="header">
+ 
+  <img src="index.jpg" alt= width="700" height="577" align="middle">
+  
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+
+</div>
+
+
+
+
+  <div class="main">
+
+
+      <h1>PETS WALKING MADE EASY</h2>
+
+      <p> WALK MY PETS is a mobile app that can make pets walking easier by giving users recommendations on pets friendly walking trails and parks. 
+
+     
+
+
+<br>
+<br>
+
+
+
+<div class="flex-containerii">
+  <div>Step 1</div>
+  <div>Step 2</div>
+  <div>Step 3</div> 
+  
+</div>
+
+<div class="flex-container" style=>
+  <div>
+  <img class="mySlides" src="signin.png" style="width:100%">
+</div>
+  <div>
+  <img class="mySlides" src="petsinfo.png" style="width:100%" >
+  </div>
+  <div>
+  <img class="mySlides" src="owners.png" style="width:100%">
+</div>
+  <div>
+  
+   
+
+   <h3> EFFORTLESS: 
+  <br> 3 easy and simple steps through WALK MY PETS app to sign-up. Use WALK MY PETS as a trail guide, and you can plan your next walking trail advanture with your pets EFFORTLESS. 
+  <h3>
+  <br>
+  <br> 
+
+  </div>
+</div>
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); 
+}
+</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr width="1200">
+<br>
+<br>
+
+ 
+ <h2>RECOMMENDATION</h2>
+<br>
+<br>
+ 
+
+
+      <div class="flex-container">
+
+  <div>
+  <img src="trails.png" style="width:100%"></div>
+
+  <div>
+    <img src="park.png" style="width:100%"></div>
+
+  
+  <div>
+     <img src="alltracks.png" style="width:100%">
+  </div>
+  <br>
+  <br>
+  
+  <div>
+     <br>
+   <h3>
+    THE "BEST OF" :
+    <br>WALK MY PETS gives recommendations to users for the nearest walking trails and parks that suitable for dogs or cats. 
+   
+    <br>
+    <br>Recommendations are depending on:
+    <br>- Size 
+    <br>- Age
+    <br>- Breed
+    <br>- Location
+    </h3>
+    </div>
+
+  
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr width="1200">
+<br>
+<br>
+<br>
+ <h2>OTHER SERVICES </h2>
+ <p>- Dog Walking Services - <br>- Pets Registration - <br> - Veterinary Service - <br>- SPCA -</p>
+ <br>
+
+
+   
+
+
+       <img src="others.png" style="width:65%" >
+       
+
+      
+  
+ <br>
+ <br>
+<br>
+<hr width="1200">
+<br>
+<br>
+<br>
+
+
+
+<h2>HISTORY & REVIEWS & NOTIFICATION</h2>
+ <p>- Check History - <br>-Review A Place- <br>- Sharing - <br> - Notification - </p>
+ <br>
+
+
+
+
+
+       <img src="notification.png" style="width:65%">
+
+      
+  
+ <br>
+ <br>
+<br>
+
+<hr width="1200">
+<br>
+<br>
+<br>
+
+     
+      <h2>FOR CAT LOVERS</h2>
+      <p>WALK MY PETS also give suggestions on where to take cats for a walk for cat lovers. This app gives recommendations on parks where generally have less dogs around, so you can your kitty can enjoy a nice walk together.  </p>
+      <br>
+<br>
+
+
+       <img src="cat.png" style="width:60%">
+       <br>
+<br><br>
+<br>
+  </div>
+</div>
+
+
+
+<div class="footer">
+  <h2>WALK MY PETS </h2>
+  <p>MDDN352_PROJECT ONE</p>
+  <p>Kristina Huang
+</div>
+
+</body>
+</html>
